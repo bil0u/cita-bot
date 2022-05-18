@@ -155,7 +155,7 @@ class CustomerProfile:
     email: str
     province: Province = Province.BARCELONA
     operation_code: OperationType = OperationType.TOMA_HUELLAS
-    country: str = "RUSIA"
+    country: str = "FRANCIA"
     year_of_birth: Optional[str] = None
     card_expire_date: Optional[str] = None  # "dd/mm/yyyy"
     offices: Optional[list] = field(default_factory=list)
