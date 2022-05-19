@@ -6,6 +6,8 @@ name = "pypi"
 [scripts]
 "start" = "python app.py"
 "start:autofill" = "python app.py --autofill"
+"setup" = "brew install --cask google-chrome chromedriver"
+"setup:update" = "brew upgrade --cask google-chrome chromedriver"
 
 [packages]
 selenium = "*"

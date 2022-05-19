@@ -18,4 +18,5 @@ It can make a reservation automatically if you set up anti-captcha, webhooks and
 ## Regular use
 
 1. Fill your customer data in `customers.py`. See [documentation](./docs/customers.md)
-2. Run `pipenv run start` or `pipenv run start:autofill`, and follow the voice instructions.
+2. Eventually update chrome and webdrivers using `pipenv run setup:update`
+3. Run `pipenv run start` or `pipenv run start:autofill`, and follow the voice instructions.
